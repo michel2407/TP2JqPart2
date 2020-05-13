@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TP - Bulletin de Scolaire</title>
+  </head>
+
+  <header>
+<h1>Consigne</h1>
+    <p>Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
+Calculer sa moyenne et déterminer son appréciation.
+<ul>
+  <li>Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : En dessous de la moyenne.
+  </li>
+  <li>Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : Moyen.
+  </li>
+  <li>Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : Bien.
+  </li>
+  <li>Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : Très bien.
+  </li>
+  <li>Si la moyenne de l'élève est égale à 20, il aura comme appréciation : Excellent.
+  </li>
+</ul>
+Afficher la moyenne et l'appréciation de l'élève.</p>
+  </header>
+  <body>
+    <form class="school col" action="index.html">
+      <!--français-->
+      <label class="col" for="french">Français</label>
+      <input type="text" id="french" name="french">
+      <!--Anglais-->
+      <label class="col" for="english">Anglais</label>
+      <input type="text" id="english" name="english">
+      <!--Maths-->
+      <label class="col" for="maths">Maths</label>
+      <input type="text" id="maths" name="maths">
+      <!--Sciences Physique-->
+      <label class="col" for="physicalScience">Sciences Physique</label>
+      <input type="text" id="physicalScience" name="physicalScience">
+      <!--Sport-->
+      <label class="col" for="french" >E.P.S</label>
+      <input type="text" id="sport" name="sport">
+      <!--button-->
+      <button type="button" id="overallAverage" name="button">Envoyer</button>
+    </form>
+
+
+<script src="assets/js/jquery 3.5.1.js"></script>
+<script src="assets/js/script.js"></script>
+  </body>
+</html>
